@@ -106,3 +106,6 @@ func loadProducts(filename string) (map[string]Product, error) {
 
 	return products, nil
 }
+# command-line-arguments
+.\main.go:5:2: "encoding/csv" imported and not used
+.\main.go:13:19: undefined: loadProducts
